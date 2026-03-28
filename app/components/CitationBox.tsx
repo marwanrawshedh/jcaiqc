@@ -26,28 +26,28 @@ type CitationBoxProps = {
   exportData?: ExportProps;
 };
 
-async function downloadCitation(
-  format: "bibtex" | "ris",
-  exportData: ExportProps
-) {
-  const res = await fetch("/api/bibtex", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ ...exportData, format }),
-  });
-  if (!res.ok) return;
+// async function downloadCitation(
+//   format: "bibtex" | "ris",
+//   exportData: ExportProps
+// ) {
+//   const res = await fetch("/api/bibtex", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/json" },
+//     body: JSON.stringify({ ...exportData, format }),
+//   });
+//   if (!res.ok) return;
 
-  const blob = await res.blob();
-  const ext = format === "ris" ? "ris" : "bib";
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `citation.${ext}`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
+//   const blob = await res.blob();
+//   const ext = format === "ris" ? "ris" : "bib";
+//   const url = URL.createObjectURL(blob);
+//   const a = document.createElement("a");
+//   a.href = url;
+//   a.download = `citation.${ext}`;
+//   a.click();
+//   URL.revokeObjectURL(url);
+// }
 
-const CitationBox = ({ description, link, exportData }: CitationBoxProps) => {
+const CitationBox = ({ description, link }: CitationBoxProps) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {

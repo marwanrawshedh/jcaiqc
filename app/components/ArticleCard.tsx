@@ -41,7 +41,7 @@ const ArticleCard = async () => {
         </div>
       ) : (
         <div className="flex flex-col gap-6">
-          {articles?.map((article, i) => {
+          {articles?.map((article) => {
             const {
               title,
               authors,
@@ -51,7 +51,6 @@ const ArticleCard = async () => {
             type,
               abstract,
              fileUrl,
-
               issue,
             } = article;
 

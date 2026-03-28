@@ -42,6 +42,7 @@ const fetchArticlesNumber = async (): Promise<{ publishedCount: number }> => {
     if (!response1.ok) throw new Error("Request failed");
     return await response1.json();
   } catch (error) {
+    console.log("Error fetching articles number:", error);
     return { publishedCount: 0 };
   }
 };
@@ -57,6 +58,7 @@ const fetchTotalViewsNumber = async (): Promise<{ totalViews: number }> => {
     if (!response1.ok) throw new Error("Request failed");
     return await response1.json();
   } catch (error) {
+    console.log("Error fetching total views number:", error);
     return { totalViews: 0 };
   }
 };

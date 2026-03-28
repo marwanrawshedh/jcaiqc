@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import Indexes from "./Indexes";
-import NewStap from "../assets/logos/NemStap";
+// import Indexes from "./Indexes";
+// import NewStap from "../assets/logos/NemStap";
 import { useEditorialMembers } from "../api/editorial-team/get";
 
 // ----------------------------------------------------------------------

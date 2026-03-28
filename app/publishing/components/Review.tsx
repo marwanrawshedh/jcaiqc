@@ -149,7 +149,7 @@ const Review = () => {
 
   const issueAndVolume = useMemo(() => {
     return issues?.find(({ value }) => value === issue);
-  }, [issue]);
+  }, [issue, issues]);
 
   return (
     <div className="relative">

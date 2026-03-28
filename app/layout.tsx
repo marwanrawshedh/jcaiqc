@@ -1,6 +1,6 @@
 // "use client";
 import "./globals.css";
-import ActiveLink from "./components/activeLink";
+// import ActiveLink from "./components/activeLink";
 import QueryProvider from "./providers/QueryProvider";
 import { AuthProvider } from "./providers/authProvider";
 import { Analytics } from "@vercel/analytics/react";
