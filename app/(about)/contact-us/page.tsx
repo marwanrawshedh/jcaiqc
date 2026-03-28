@@ -28,7 +28,7 @@ const ContactUs = () => {
                   editor.jcaiqc@sciencecommunitypublisher.org
                 </address>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <address className="flex gap-1">
                   <a href={`mailto:contact@sciencecommunitypublisher.org`}>
                     <Image
@@ -41,7 +41,7 @@ const ContactUs = () => {
                   </a>
                   contact@sciencecommunitypublisher.org
                 </address>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
