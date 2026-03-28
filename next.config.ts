@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "thestap.blob.core.windows.net",
+        hostname: "sciencecommunitypublisher.blob.core.windows.net",
         port: "",
         pathname: "/**",
       },

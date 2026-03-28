@@ -7,7 +7,7 @@ import DropDownList from "./Menu";
 import Drawer from "./Drawer";
 import MySubmissionButton from "./MySubmissionButton";
 import { common } from "../constants/common";
-import { NewStap } from "../assets/logos/NemStap";
+// import { NewStap } from "../assets/logos/NemStap";
 
 function NavigationLinks() {
   return (
@@ -76,7 +76,7 @@ export default function Header() {
             <Link href="https://sciencecommunitypublisher.org/" target="_blank" className="hover:text-primary transition-colors flex items-center gap-1.5">
               <span className="font-semibold tracking-wider text-[10px] uppercase text-gray-400">Publisher</span> 
               <span className="font-medium text-gray-800 flex items-center gap-1">
-                STAP <span className="hidden sm:inline lowercase text-gray-500">— Science Community Publisher</span>
+                 <span className="hidden sm:inline lowercase text-gray-500">— Science Community Publisher</span>
               </span>
             </Link>
             <span className="text-gray-300">|</span>
@@ -94,9 +94,9 @@ export default function Header() {
           
           {/* Logo and Journal Title */}
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 lg:gap-8 w-full text-center sm:text-left">
-            <div className="hidden sm:flex self-start mt-2 border-r border-gray-100 pr-6">
+            {/* <div className="hidden sm:flex self-start mt-2 border-r border-gray-100 pr-6">
               <NewStap width="140px" height="50px" />
-            </div>
+            </div> */}
             <div className="flex flex-col gap-2">
               <h1 className="text-3xl sm:text-[2.25rem] font-bold font-heading text-primary leading-tight tracking-tight">
                 {common.JournalTitle}

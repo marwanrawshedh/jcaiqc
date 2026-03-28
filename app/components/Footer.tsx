@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import NewStap from "../assets/logos/NemStap";
+// import NewStap from "../assets/logos/NemStap";
 
 function JcsraFooter() {
   return (
@@ -31,15 +31,15 @@ function JcsraFooter() {
             <button onClick={() => window.location.href = "https://submit.sciencecommunitypublisher.org/index.php/jcaiqc/login"} className="py-3 px-8 bg-white text-black text-16 font-medium rounded-lg text-nowrap w-fit">
               Make a Submission
             </button>
-            <p className="text-13 text-white opacity-60 text-wrap">Hello, we are STAP. Our goal is to to empower authors and spread there knowledge throw our platform</p>
+            <p className="text-13 text-white opacity-60 text-wrap">Hello, we are Science Community Publisher. Our goal is to to empower authors and spread there knowledge throw our platform</p>
           </div>
         </div>
         <div className="w-full h-0.5 bg-white opacity-50" />
         <div className="flex sm:justify-between justify-center items-center flex-wrap gap-4">
           <div className="flex flex-col bg-[rgba(186,215,250,0.2)] w-min p-2 sm:pr-40">
             <a href="https://sciencecommunitypublisher.org/">
-              <NewStap width="150px" height="50px" />
-              <p className="text-white text-sm text-center text-nowrap">2025© STAP. All rights reserved.</p>
+              {/* <NewStap width="150px" height="50px" /> */}
+              <p className="text-white text-sm text-center text-nowrap">2026© Science Community Publisher. All rights reserved.</p>
             </a>
           </div>
           <div className="flex gap-8">
@@ -77,9 +77,9 @@ function MinimalFooter() {
               Publishing rigorous, peer-reviewed academic research to empower authors and spread knowledge globally.
             </p>
             <div className="mt-2">
-              <a href="https://sciencecommunitypublisher.org/" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://sciencecommunitypublisher.org/" target="_blank" rel="noopener noreferrer">
                 <NewStap width="120px" height="40px" className="opacity-80 grayscale hover:grayscale-0 transition duration-300" />
-              </a>
+              </a> */}
             </div>
           </div>
 

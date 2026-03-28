@@ -1,5 +1,5 @@
 export const common = {
-  issn: "3079-5354",
+  issn: "Pending Request",
   JournalTitle: "Journal of Cybersecurity in AI and Quantum Computing",
   Journal_abbrev: "JCAIQC",
   JournalURL: `https://jcaiqc.sciencecommunitypublisher.org`,
