@@ -11,13 +11,14 @@ const journalData = {
     </Link>
   ),
   ISSN: (
-    <a
-      className="transition duration-500 ease-in-out hover:text-accent-hover text-accent"
-      href="https://portal.issn.org/resource/ISSN/3079-5354"
-      aria-label={`View ISSN ${common.issn} (Online) record`}
-    >
-      {common.issn} (Online)
-    </a>
+    "Request Pending"
+    // <a
+    //   className="transition duration-500 ease-in-out hover:text-accent-hover text-accent"
+    //   href="https://portal.issn.org/resource/ISSN/3079-5354"
+    //   aria-label={`View ISSN ${common.issn} (Online) record`}
+    // >
+    //   {common.issn} (Online)
+    // </a>
   ),
   "Type of Review": (
     <Link
@@ -28,47 +29,47 @@ const journalData = {
       Double Blind Review
     </Link>
   ),
-  "Doi Prefix": (
-    <a
-      className="text-accent"
-      href="https://search.crossref.org/search/works?q=10.63180%2Fjcsra.thestap&from_ui=yes"
-      aria-label="Search publications with DOI prefix 10.63180/jcaiqc.thestap"
-    >
-      10.63180/jcaiqc.thestap
-    </a>
-  ),
-  Indexing: (
-    <>
-      <a
-        className="text-accent"
-        href="https://www.scopus.com/sourceid/21101363747"
-        aria-label="View the journal's Scopus indexing record"
-      >
-        Scopus,{" "}
-      </a>
-      <a
-        className="text-accent"
-        href="https://search.crossref.org/search/works?q=10.63180%2Fjcsra.thestap&from_ui=yes"
-        aria-label="View the journal's Crossref records"
-      >
-        Crossref,{" "}
-      </a>
-      <a
-        className="text-accent"
-        href="https://scholar.google.com/citations?hl=ar&view_op=list_works&gmla=ANZ5fUPVVLwn7oAVN2G5_D3s9cRohreHDxEgd7IFDYqjg8lPEfBUBzWpYQiYbNrvyCYp3nyFEL8RwJoGUM47ISws-8X5cGqQMrJ8bymROXDE20n-5GgSKsdlP_5qmVnKGA8b8rQKxmfsWmRTvN81AiI4ECcd4GVpMmWWksL9J2G3iw&user=JrLDhbwAAAAJ"
-        aria-label="View the journal's Google Scholar profile"
-      >
-        Google Scholar,{" "}
-      </a>
-      <a
-        className="text-accent"
-        href="https://www.scilit.com/sources/503934"
-        aria-label="View the journal's Scilit profile"
-      >
-        Scilit
-      </a>
-    </>
-  ),
+  // "Doi Prefix": (
+  //   <a
+  //     className="text-accent"
+  //     href="https://search.crossref.org/search/works?q=10.63180%2Fjcsra.thestap&from_ui=yes"
+  //     aria-label="Search publications with DOI prefix 10.63180/jcaiqc.thestap"
+  //   >
+  //     10.63180/jcaiqc.thestap
+  //   </a>
+  // ),
+  // Indexing: (
+  //   <>
+  //     <a
+  //       className="text-accent"
+  //       href="https://www.scopus.com/sourceid/21101363747"
+  //       aria-label="View the journal's Scopus indexing record"
+  //     >
+  //       Scopus,{" "}
+  //     </a>
+  //     <a
+  //       className="text-accent"
+  //       href="https://search.crossref.org/search/works?q=10.63180%2Fjcsra.thestap&from_ui=yes"
+  //       aria-label="View the journal's Crossref records"
+  //     >
+  //       Crossref,{" "}
+  //     </a>
+  //     <a
+  //       className="text-accent"
+  //       href="https://scholar.google.com/citations?hl=ar&view_op=list_works&gmla=ANZ5fUPVVLwn7oAVN2G5_D3s9cRohreHDxEgd7IFDYqjg8lPEfBUBzWpYQiYbNrvyCYp3nyFEL8RwJoGUM47ISws-8X5cGqQMrJ8bymROXDE20n-5GgSKsdlP_5qmVnKGA8b8rQKxmfsWmRTvN81AiI4ECcd4GVpMmWWksL9J2G3iw&user=JrLDhbwAAAAJ"
+  //       aria-label="View the journal's Google Scholar profile"
+  //     >
+  //       Google Scholar,{" "}
+  //     </a>
+  //     <a
+  //       className="text-accent"
+  //       href="https://www.scilit.com/sources/503934"
+  //       aria-label="View the journal's Scilit profile"
+  //     >
+  //       Scilit
+  //     </a>
+  //   </>
+  // ),
   Publisher: (
     <a
       className="transition duration-500 ease-in-out hover:text-accent-hover text-accent"
@@ -78,17 +79,17 @@ const journalData = {
       Science Community Publisher 
     </a>
   ),
-  Archiving: (
-    <a
-      className="text-accent"
-      href="https://www.portico.org/publishers/stap"
-      aria-label="View the journal's Portico archiving record"
-    >
-      Portico
-    </a>
-  ),
-  Organizer:
-    " Research group members of Cybersecurity Risk Assessment in IT Infrastructure Assets at the University of Jordan",
+  // Archiving: (
+  //   <a
+  //     className="text-accent"
+  //     href="https://www.portico.org/publishers/stap"
+  //     aria-label="View the journal's Portico archiving record"
+  //   >
+  //     Portico
+  //   </a>
+  // ),
+  // Organizer:
+  //   " Research group members of Cybersecurity Risk Assessment in IT Infrastructure Assets at the University of Jordan",
   ReviewSpeed: "60 days",
   "Digital Marketing": (
     <div className="flex gap-1">
@@ -106,7 +107,7 @@ const journalData = {
           className="object-contain"
         />
       </a>
-      <a
+      {/* <a
         className="text-accent"
         aria-label="Visit the Journal of Cybersecurity in AI and Quantum Computing LinkedIn page"
         href="https://www.linkedin.com/in/journal-of-cyber-security-and-risk-auditing-jcaiqc-b902b5349/"
@@ -147,7 +148,7 @@ const journalData = {
           height={30}
           className="object-contain"
         />
-      </a>
+      </a> */}
     </div>
   ),
   "Online Submission": (
