@@ -15,15 +15,15 @@ export default function JournalNewsSection() {
       </div>
 
       <div className="flex flex-col border-b border-gray-200">
-        {newsItems.map((item) => (
+        {newsItems.length > 0 ? newsItems?.map((item) => (
           <article
-            key={item.id}
+            key={item?.id}
             className="group grid grid-cols-1 md:grid-cols-12 gap-8 py-8 border-t border-gray-200 first:border-0 relative"
           >
             {/* Date Column (Editorial Style) */}
             <div className="md:col-span-2 flex flex-col pt-1">
               <time className="text-[11px] sm:text-xs font-bold text-gray-500 uppercase tracking-widest border-l-2 border-accent pl-3">
-                {item.date}
+                {item?.date}
               </time>
             </div>
 
@@ -48,8 +48,8 @@ export default function JournalNewsSection() {
                <div className="relative w-full sm:w-48 xl:w-56 aspect-[4/3] flex-shrink-0 bg-gray-50 border border-gray-100 p-1 hidden sm:block">
                  <div className="relative w-full h-full overflow-hidden">
                     <Image
-                      src={item.image}
-                      alt={item.title}
+                      src={item?.image}
+                      alt={item?.title}
                       fill
                       className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-105 transform"
                     />
@@ -57,7 +57,7 @@ export default function JournalNewsSection() {
                </div>
             </div>
           </article>
-        ))}
+        )) : <p>No news found</p>}
       </div>
       
       <div className="mt-6 sm:hidden">

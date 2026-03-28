@@ -4,7 +4,7 @@ import JournalInfoTable from "./components/JournalInfoTable";
 import { common } from "./constants/common";
 // import CallForPaper from "./components/CallForPaper";
 import Statistic from "./components/Statistics";
-import JournalNewsSection from "./components/JournalNews";
+// import JournalNewsSection from "./components/JournalNews";
 
 export const metadata: Metadata = {
   verification: { google: "dK0ld6sjYMyk4iltRuECLzelzY6-xBckcg1aBhMv2fA" },
@@ -21,9 +21,9 @@ const Home = () => {
       <section className="w-full">
         <Statistic />
       </section>
-      <section className="w-full">
+      {/* <section className="w-full">
         <JournalNewsSection />
-      </section>
+      </section> */}
       <section className="w-full">
         <ArticleCard />
       </section>
