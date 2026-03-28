@@ -47,11 +47,11 @@ export default function RightSideBar() {
            <div className="flex flex-col gap-3 text-sm">
              <div className="flex justify-between items-center">
                <span className="text-gray-600 font-medium">Acceptance Rate</span>
-               <span className="font-bold text-primary">18%</span>
+               <span className="font-bold text-primary">40%</span>
              </div>
              <div className="flex justify-between items-center">
                <span className="text-gray-600 font-medium">Time to First Decision</span>
-               <span className="font-bold text-primary">14 Days</span>
+               <span className="font-bold text-primary">60 Days</span>
              </div>
            </div>
         </section>
