@@ -7,7 +7,7 @@ import Statistic from "./components/Statistics";
 // import JournalNewsSection from "./components/JournalNews";
 
 export const metadata: Metadata = {
-  verification: { google: "6LfuMp0sAAAAAD1sk1MLG7HPtUjITZgs06FWJEw7" },
+  verification: { google: "dK0ld6sjYMyk4iltRuECLzelzY6-xBckcg1aBhMv2fA" },
   title: common.JournalTitle,
   description:
     "The Journal of Cybersecurity in AI and Quantum Computing (JCSRA) is a peer-reviewed open access academic journal publishing research in cybersecurity, cyber risk auditing, information security, and governance. Indexed in Scopus, Crossref, and Google Scholar.",
