@@ -30,7 +30,7 @@ const Drawer = () => {
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-[#00234C] shadow-lg transform transition-transform duration-300 z-50 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-primary shadow-lg transform transition-transform duration-300 z-50 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
