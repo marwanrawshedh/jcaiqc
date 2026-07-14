@@ -15,7 +15,7 @@ const AuthButtons = () => {
         <>
           <a
             className="text-black hover:text-blue-600 shadow-lg rounded-full py-2 px-4"
-            href="https://submit.sciencecommunitypublisher.org/index.php/jcaiqc/login"
+            href="https://publish.sciencecommunitypublisher.org/index.php/jcaiqc/login"
           >
             Login
           </a>

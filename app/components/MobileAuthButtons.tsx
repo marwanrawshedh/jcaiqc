@@ -29,7 +29,7 @@ const MobileAuthButtons = () => {
           <li className="max-md:border-b max-md:py-3 ">
             <a
               className="text-white"
-              href="https://submit.sciencecommunitypublisher.org/index.php/jcaiqc/login"
+              href="https://publish.sciencecommunitypublisher.org/index.php/jcaiqc/login"
             >
               Login
             </a>

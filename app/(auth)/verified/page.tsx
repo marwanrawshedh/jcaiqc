@@ -10,7 +10,7 @@ export default function Verified() {
         <p className="text-gray-700 ">
           Your email has been successfully verified. You can now log in
         </p>
-        <a href="https://submit.sciencecommunitypublisher.org/index.php/jcaiqc/login">
+        <a href="https://publish.sciencecommunitypublisher.org/index.php/jcaiqc/login">
           Go to Login
         </a>
       </div>
