@@ -88,7 +88,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const mappedId = staticArticleIdObj?.[id]?.[articleId] ?? articleId;
 
   const data = await fetchArticle({ articleId: mappedId, issue, volume });
-  if (!data) return { title: "Article Not Found | JCSRA" };
+  if (!data) return { title: `Article Not Found | ${common.Journal_abbrev}` };
 
   const {
     abstract,

@@ -5,13 +5,14 @@ import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../components/Breadcrumb";
 import type { Metadata } from "next";
+import { common } from "../constants/common";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export const metadata: Metadata = {
-  title: "Archives | Journal of Cybersecurity in AI and Quantum Computing (JCSRA)",
+  title: `Archives | ${common.JournalTitle} (${common.Journal_abbrev})`,
   description:
-    "Browse all published volumes and issues of the Journal of Cybersecurity in AI and Quantum Computing (JCSRA). Open access academic journal covering cybersecurity, risk management, and auditing.",
+    `Browse all published volumes and issues of the ${common.JournalTitle} (${common.Journal_abbrev}). Open access academic journal covering cybersecurity, risk management, and auditing.`,
   alternates: {
     canonical: "https://jcaiqc.sciencecommunitypublisher.org/archives",
   },

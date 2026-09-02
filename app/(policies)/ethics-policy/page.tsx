@@ -305,9 +305,9 @@ const PublicationEthics = () => {
             Confidentiality
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            All journal submissions to JCSRA will be handled with the utmost
+            All journal submissions to {common.Journal_abbrev} will be handled with the utmost
             confidentiality by the editors. Reviewers are similarly obligated to
-            maintain the privacy of the manuscripts they evaluate. JCSRA
+            maintain the privacy of the manuscripts they evaluate. {common.Journal_abbrev}
             journals will not share submitted papers with any external parties,
             except in instances where suspected misconduct necessitates further
             investigation. For more details, please refer to our Misconduct
@@ -319,16 +319,16 @@ const PublicationEthics = () => {
             Avoiding the Use of AI Tools to Write Scientific Papers
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            All journal submissions to JCSRA will be handled with the utmost
+            All journal submissions to {common.Journal_abbrev} will be handled with the utmost
             confidentiality by the editors. Reviewers are similarly obligated to
-            maintain the privacy of the manuscripts they evaluate. JCSRA
+            maintain the privacy of the manuscripts they evaluate. {common.Journal_abbrev}
             journals will not share submitted papers with any external parties,
             except in instances where suspected misconduct necessitates further
             investigation. For more details, please refer to our Misconduct
             Policy.
           </p>
         </section>
-        At JCSRA, we strongly discourage authors from using AI tools or language
+        At {common.Journal_abbrev}, we strongly discourage authors from using AI tools or language
         models, such as ChatGPT or similar technologies, to generate scientific
         papers. While these tools can produce text that closely mimics human
         writing, their use in scientific research raises significant concerns
@@ -340,11 +340,11 @@ const PublicationEthics = () => {
         scholarly publishing, we adhere to the principles established by the
         Committee on Publication Ethics (COPE). COPE underscores the importance
         of authorship, accountability, and transparency in scientific
-        publishing. We urge authors submitting to JCSRA to strictly follow these
+        publishing. We urge authors submitting to {common.Journal_abbrev} to strictly follow these
         guidelines.
         <br />
         <br />
-        At JCSRA, we are dedicated to fostering responsible and ethical
+        At {common.Journal_abbrev}, we are dedicated to fostering responsible and ethical
         publishing practices. We encourage authors submitting to our journals to
         take an active role in the research and writing process, ensuring their
         scientific papers are a true reflection of their expertise, insights,

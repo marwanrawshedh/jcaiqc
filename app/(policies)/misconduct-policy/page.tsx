@@ -8,11 +8,11 @@ const ArchivingPolicyPage = () => {
       <p className="mb-8">
         <strong>{common.Journal_abbrev} </strong> takes allegations of
         misconduct very seriously. In addressing such claims within its
-        journals, JCSRA adheres to the guidelines established by the Committee
+        journals, {common.Journal_abbrev} adheres to the guidelines established by the Committee
         on Publication Ethics (COPE). If there is evidence or suspicion of
         misconduct in research or publication, the editor may contact the
         author’s institution and/or an ethical commission for further
-        investigation. Additionally, JCSRA may seek guidance from COPE and
+        investigation. Additionally, {common.Journal_abbrev} may seek guidance from COPE and
         confidentially discuss cases in the COPE Forum to ensure appropriate
         resolution.
       </p>

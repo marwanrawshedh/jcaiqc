@@ -129,7 +129,7 @@ const AbstractingIndexing = () => {
           <p className="text-gray-700 leading-relaxed">
             Being listed in prestigious indexing databases improves the
             visibility, credibility, and accessibility of our publications. This
-            ensures that the research published in JCSRA reaches a wide academic
+            ensures that the research published in {common.Journal_abbrev} reaches a wide academic
             and professional audience worldwide.
           </p>
           <p className="text-gray-700 leading-relaxed">

@@ -17,7 +17,7 @@ const CorrectionsWithdrawalsPage = () => {
         original and corrected or retracted versions remain publicly accessible
         and thoroughly indexed. In exceptional cases where content is found to
         violate certain rights or be defamatory, it may be necessary to remove
-        it from JCSRA’s website and archive sites.
+        it from {common.Journal_abbrev}’s website and archive sites.
       </p>
       <p className="mb-8">
         Authors may add comments to published articles to address necessary

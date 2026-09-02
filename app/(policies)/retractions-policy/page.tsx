@@ -1,3 +1,4 @@
+import { common } from "@/app/constants/common";
 import React from "react";
 
 const RetractionsPage = () => {
@@ -7,7 +8,7 @@ const RetractionsPage = () => {
       <p className="mb-8">
         Sometimes it&apos;s necessary to retract a publication when there&apos;s
         been a major breach of trust in the paper&apos;s underlying scientific
-        findings. When this occurs, JCSRA shall follow the guidelines
+        findings. When this occurs, {common.Journal_abbrev} shall follow the guidelines
         established by the Committee on Publication Ethics (COPE). There is a
         comprehensive index with direct links to the original versions of all
         retracted articles.

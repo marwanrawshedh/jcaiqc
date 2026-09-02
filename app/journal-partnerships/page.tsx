@@ -58,13 +58,13 @@ const JournalPartnerships = () => {
             obsolescence, data loss, or unforeseen disruptions.
             <br />
             <br />
-            This partnership demonstrates JCSRA’s commitment to maintaining the
+            This partnership demonstrates {common.Journal_abbrev}’s commitment to maintaining the
             permanent scholarly record and aligning with international best
             practices in academic publishing. By integrating with Portico, the
             journal enhances its credibility and provides authors, readers, and
             institutions with assurance that their contributions will remain
             accessible for future generations of researchers. <br />
-            <br /> The collaboration also supports JCSRA’s broader mission of
+            <br /> The collaboration also supports {common.Journal_abbrev}’s broader mission of
             promoting high-quality research in cybersecurity, risk management,
             and digital auditing while adhering to standards of transparency,
             reliability, and sustainability in scholarly communication.
@@ -108,7 +108,7 @@ const JournalPartnerships = () => {
             and digital trust reaches a global scholarly audience.
             <br />
             <br />
-            This collaboration reflects JCSRA’s commitment to adopting best
+            This collaboration reflects {common.Journal_abbrev}’s commitment to adopting best
             practices in scholarly publishing by leveraging digital tools that
             improve accessibility, transparency, and sustainability. By
             partnering with OJS, the journal strengthens its mission to advance

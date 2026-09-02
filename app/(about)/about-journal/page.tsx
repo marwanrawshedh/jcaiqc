@@ -72,7 +72,7 @@ const AboutJournal = () => {
 
       <section className="text-center bg-blue-50 p-8 rounded-2xl">
         <p className="text-lg text-gray-800 font-medium">
-          JCSRA is committed to accelerating the dissemination of impactful
+          {common.Journal_abbrev} is committed to accelerating the dissemination of impactful
           research, while providing open and inclusive access to researchers,
           practitioners, and policy-makers worldwide.
         </p>
