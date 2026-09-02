@@ -37,7 +37,7 @@ function JcsraFooter() {
               <h4 className="text-lg">Contact Us</h4>
               <div className="text-sm">
                 <strong className="text-gray-300 font-regular">
-                  Amman-Jordan
+                  Baku-Azerbaijan
                 </strong>
               </div>
               {/* <address><a className="flex gap-2 text-gray-300 font-regular text-sm" href="mailto:contact@sciencecommunitypublisher.org">contact@sciencecommunitypublisher.org</a></address> */}
@@ -195,7 +195,7 @@ function MinimalFooter() {
               Contact
             </h4>
             <div className="flex flex-col gap-2 text-sm text-gray-500">
-              <p>Amman, Jordan</p>
+              <p>Baku, Azerbaijan</p>
               {/* <a className="hover:text-primary transition duration-200" href="mailto:contact@sciencecommunitypublisher.org">contact@sciencecommunitypublisher.org</a> */}
               <a
                 className="hover:text-primary transition duration-200"

@@ -102,8 +102,8 @@ export default function GenerativeAIPolicy() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold  mb-4">For reviewers</h2>
         <p className="text-lg font-semibold  mb-4">
-          The use of generative AI and AI-assisted technologies in the Journal
-          of Cybersecurity and Risk Auditing peer review process.
+          The use of generative AI and AI-assisted technologies in the{" "}
+          {common.JournalTitle} peer review process.
         </p>
         <ul className="list-disc pl-6 space-y-2">
           <li>
@@ -122,8 +122,8 @@ export default function GenerativeAIPolicy() {
             purpose of improving language and readability.
           </li>
           <li>
-            Peer review is at the heart of the scientific ecosystem and Journal
-            of Cybersecurity and Risk Auditing abides by the highest standards
+            Peer review is at the heart of the scientific ecosystem and{" "}
+            {common.JournalTitle} abides by the highest standards
             of integrity in this process. Reviewing a scientific manuscript
             implies responsibilities that can only be attributed to humans.
             Generative AI or AI-assisted technologies should not be used by
@@ -139,8 +139,8 @@ export default function GenerativeAIPolicy() {
             allowed to use generative AI and AI-assisted technologies in the
             writing process before submission, but only to improve the language
             and readability of their paper and with the appropriate disclosure,
-            as per our instructions in Journal of Cybersecurity and Risk
-            Auditing’s Guide for Authors. Reviewers can find such disclosure at
+            as per our instructions in {common.JournalTitle}’s Guide for
+            Authors. Reviewers can find such disclosure at
             the bottom of the paper in a separate section before the list of
             references.{" "}
           </li>
@@ -168,8 +168,8 @@ export default function GenerativeAIPolicy() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">For editors</h2>
         <p className="text-lg font-semibold  mb-4">
-          The use of generative AI and AI-assisted technologies in the Journal
-          of Cybersecurity and Risk Auditing editorial process
+          The use of generative AI and AI-assisted technologies in the{" "}
+          {common.JournalTitle} editorial process
         </p>
         <ul className="list-disc pl-6 space-y-2">
           <li>
@@ -188,8 +188,8 @@ export default function GenerativeAIPolicy() {
             improving language and readability.
           </li>
           <li>
-            Peer review is at the heart of the scientific ecosystem and Journal
-            of Cybersecurity and Risk Auditing abides by the highest standards
+            Peer review is at the heart of the scientific ecosystem and{" "}
+            {common.JournalTitle} abides by the highest standards
             of integrity in this process. Managing the editorial evaluation of a
             scientific manuscript implies responsibilities that can only be
             attributed to humans. Generative AI or AI-assisted technologies
@@ -207,8 +207,8 @@ export default function GenerativeAIPolicy() {
             allowed to use generative AI and AI-assisted technologies in the
             writing process before submission, but only to improve the language
             and readability of their paper and with the appropriate disclosure,
-            as per our instructions in Journal of Cybersecurity and Risk
-            Auditing’s Guide for Authors. Editors can find such disclosure at
+            as per our instructions in {common.JournalTitle}’s Guide for
+            Authors. Editors can find such disclosure at
             the bottom of the paper in a separate section before the list of
             references. If an editor suspects that an author or a reviewer has
             violated our AI policies, they should inform the publisher.{" "}

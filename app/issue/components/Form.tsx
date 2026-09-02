@@ -145,7 +145,7 @@ const IssueForm = ({
                       {...field}
                     />
                     <p className="text-gray-500 text-sm">
-                      Example: United Kingdom, Jordan, Malaysia,
+                      Example: United Kingdom, Azerbaijan, Malaysia,
                     </p>
                     {error && (
                       <p className="text-red-500 text-sm">{error.message}</p>

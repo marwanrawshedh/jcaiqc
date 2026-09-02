@@ -49,7 +49,7 @@ const ContactUs = () => {
             <ul className="mt-2">
               <li className="flex items-center">
                 <div className=" text-sm ">
-                  <strong>Amman-Jordan</strong>
+                  <strong>Baku-Azerbaijan</strong>
                 </div>
               </li>
             </ul>

@@ -49,8 +49,7 @@ const JournalPartnerships = () => {
         />
         <div className="flex gap-10">
           <p className="flex-1">
-            <strong>{common.JournalTitle}</strong> The Journal of Cyber Security
-            and Risk Auditing ({common.Journal_abbrev}) has officially partnered
+            <strong>{common.JournalTitle}</strong> ({common.Journal_abbrev}) has officially partnered
             with Portico, a leading digital preservation service, to ensure the
             long-term accessibility and integrity of its published content.
             Through this collaboration, all articles published in{" "}
@@ -130,8 +129,8 @@ const JournalPartnerships = () => {
         <div className="flex gap-10">
           <p className="flex-1">
             <strong>{common.JournalTitle}</strong> partner with Google Scholar
-            to allow researcher’s access to their publication’s Journal of Cyber
-            Security and Risk Auditing through Google Scholar. Through this
+            to allow researcher’s access to their publication’s{" "}
+            {common.JournalTitle} through Google Scholar. Through this
             partnership, researchers, professors, and students will have
             streamlined access to Journal of Cybersecurity in AI and Quantum Computing
             articles from any location, enabling them to utilize the resources
@@ -154,8 +153,8 @@ const JournalPartnerships = () => {
             ORCID, a non-profit organization that is dedicated to sharing
             information globally through enabling a transparent and trustworthy
             connection between researchers, their contributions, and
-            affiliations. When editors/authors publish articles, Journal of
-            Cyber Security and Risk Auditing will collect their ORCID iD to
+            affiliations. When editors/authors publish articles,{" "}
+            {common.JournalTitle} will collect their ORCID iD to
             verify their identity, tie the published work or journal manuscript
             review to their name, as well as help increase the discoverability
             and creditability of their work.

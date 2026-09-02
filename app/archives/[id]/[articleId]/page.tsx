@@ -13,7 +13,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { articles } from "@/app/constants/articles";
 import CopyRight from "@/app/components/CopyRight";
 import KeywordsSection from "@/app/components/Keywords";
 import CitationBox from "@/app/components/CitationBox";
@@ -109,7 +108,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   );
 
   const bareDoi = normalizeDoi(doi);                        // "10.XXXX/YYYY"
-  const { coverImageSrc } = articles["volume-2025-2"][2 - 1];
 
   // COMMIT 3: All three URL forms are identical — use mappedId throughout
   const canonicalUrl = `${common.JournalURL}/archives/${id}/${mappedId}`;
@@ -129,14 +127,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: abstract.replace(/\s+/g, " ").trim(),
       type: "article",
       url: canonicalUrl,           // COMMIT 3: was articleId, now mappedId
-      images: [
-        {
-          url: coverImageSrc,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
       siteName: common.JournalTitle,
       locale: "en_US",
       publishedTime: publicationDate,
@@ -146,7 +136,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description: abstract.replace(/\s+/g, " ").trim(),
-      images: [coverImageSrc],
     },
     // Google Scholar / Highwire Press citation meta tags
     // NOTE: citation_author is intentionally OMITTED here.

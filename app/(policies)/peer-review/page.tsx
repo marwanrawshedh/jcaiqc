@@ -84,8 +84,8 @@ const PeerReview = () => {
         </p>
         <p className="text-gray-700 mt-2">
           At least two independent experts who are not part of the journal’s
-          editorial staff take part in the peer-review procedure. The Journal of
-          Cyber Security and Risk Auditing ({common.Journal_abbrev}) follows a
+          editorial staff take part in the peer-review procedure. The{" "}
+          {common.JournalTitle} ({common.Journal_abbrev}) follows a
           double-blind peer review process. In the double-blind review system,
           which authors remain anonymous to reviewers. Manuscripts are submitted
           without identifying information, and any references that may reveal
