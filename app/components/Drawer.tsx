@@ -21,7 +21,7 @@ const NAV_SECTIONS = [
       { title: "Aims and Scope", href: "/aims-scope", icon: AimIcon },
       { title: "Author Guidelines", href: "/author-guidelines", icon: GuideIcon },
       { title: "Editorial Team", href: "/editorial-team", icon: TeamIcon },
-      { title: "Journal Partnerships", href: "/journal-partnerships", icon: PartnerIcon },
+      // { title: "Journal Partnerships", href: "/journal-partnerships", icon: PartnerIcon },
       { title: "Abstracting & Indexing", href: "/abstracting-indexing", icon: IndexIcon },
       { title: "Article Publishing Charges", href: "/article-charges", icon: ChargesIcon },
     ],
@@ -90,13 +90,13 @@ function TeamIcon() {
     </svg>
   );
 }
-function PartnerIcon() {
-  return (
-    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-    </svg>
-  );
-}
+// function PartnerIcon() {
+//   return (
+//     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+//       <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+//     </svg>
+//   );
+// }
 function IndexIcon() {
   return (
     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
