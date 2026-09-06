@@ -90,7 +90,7 @@ const journalData = {
   // ),
   // Organizer:
   //   " Research group members of Cybersecurity Risk Assessment in IT Infrastructure Assets at the University of Azerbaijan",
-  ReviewSpeed: "60 days",
+  ReviewSpeed: "4 months",
   "Digital Marketing": (
     <div className="flex gap-1">
       <a

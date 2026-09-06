@@ -65,7 +65,7 @@ export default function RightSideBar() {
               <span className="text-gray-600 font-medium">
                 Time to First Decision
               </span>
-              <span className="font-bold text-primary">60 Days</span>
+              <span className="font-bold text-primary">4 months</span>
             </div>
           </div>
         </section>
