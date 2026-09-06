@@ -15,7 +15,7 @@ export default function JournalNewsSection() {
       </div>
 
       <div className="flex flex-col border-b border-gray-200">
-        {newsItems.length > 0 ? newsItems?.map((item) => (
+        {newsItems.length > 0 ? newsItems?.map((item: {id: number, date: string, title: string, description: string, image: string, slug: string}) => (
           <article
             key={item?.id}
             className="group grid grid-cols-1 md:grid-cols-12 gap-8 py-8 border-t border-gray-200 first:border-0 relative"

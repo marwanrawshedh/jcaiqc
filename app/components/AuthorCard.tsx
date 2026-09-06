@@ -15,7 +15,7 @@ const AuthorCard = ({
   description,
   name,
   scholar,
-  img,
+  // img,
   orcid,
 }: AuthorCardProps) => {
   return (

@@ -2,7 +2,7 @@
 // This is critical for Google Scholar — the archives list must render issue links in
 // static HTML so crawlers can discover all volume/issue pages without executing JavaScript.
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import Breadcrumb from "../components/Breadcrumb";
 import type { Metadata } from "next";
 import { common } from "../constants/common";

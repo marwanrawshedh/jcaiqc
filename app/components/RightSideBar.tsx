@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 // import Indexes from "./Indexes";
 // import NewStap from "../assets/logos/NemStap";
 import { useEditorialMembers } from "../api/editorial-team/get";
@@ -92,7 +92,7 @@ export default function RightSideBar() {
         </div>
 
         {!isPending &&
-          editorInChief?.map(({ firstName, lastName, title, fileUrl }) => (
+          editorInChief?.map(({ firstName, lastName, title }) => (
             <div key={firstName} className="flex gap-4 items-center group">
               {/* <Image
                 className="rounded-full w-14 h-14 object-cover border-2 border-gray-50 shadow-sm grayscale group-hover:grayscale-0 transition-all"
