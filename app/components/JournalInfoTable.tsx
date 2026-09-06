@@ -6,8 +6,7 @@ const journalData = {
   Title: `${common.JournalTitle}`,
   Frequency: (
     <Link href={"/archives"} className="text-accent">
-      4 issues per year <br />
-      (March, June, September, December)
+      1 issue per year <br />
     </Link>
   ),
   ISSN: (
