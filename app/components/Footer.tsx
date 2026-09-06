@@ -44,9 +44,9 @@ function JcsraFooter() {
               <address>
                 <a
                   className="flex gap-2 text-gray-300 font-regular text-sm"
-                  href="mailto:editor.editor.jcaiqc@sciencecommunitypublisher.org"
+                  href="mailto:jcaiqc@sciencecommunitypublisher.org"
                 >
-                  editor.editor.jcaiqc@sciencecommunitypublisher.org
+                  jcaiqc@sciencecommunitypublisher.org
                 </a>
               </address>
             </div>
@@ -199,9 +199,9 @@ function MinimalFooter() {
               {/* <a className="hover:text-primary transition duration-200" href="mailto:contact@sciencecommunitypublisher.org">contact@sciencecommunitypublisher.org</a> */}
               <a
                 className="hover:text-primary transition duration-200"
-                href="mailto:editor.editor.jcaiqc@sciencecommunitypublisher.org"
+                href="mailto:jcaiqc@sciencecommunitypublisher.org"
               >
-                editor.editor.jcaiqc@sciencecommunitypublisher.org
+                jcaiqc@sciencecommunitypublisher.org
               </a>
             </div>
 

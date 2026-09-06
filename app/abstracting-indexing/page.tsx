@@ -5,41 +5,41 @@ export const metadata: Metadata = {
   title: `Abstracting and Indexing - ${common.JournalTitle}`,
 };
 const indexes = [
-  {
-    name: "Scopus",
-    logo: "/logos/scopus.png",
-    link: "https://www.scopus.com/sourceid/21101363747",
-  },
-  {
-    name: "DOAJ",
-    logo: "/logos/DOAJ.svg",
-    link:"https://doaj.org/toc/3079-5354"
-  },
-  {
-    name: "ِEbsco",
-    logo: "/logos/EBSCO.png",
-    link: "https://about.ebsco.com/m/ee/Marketing/titleLists/awr-coverage.htm",
-  },
-  {
-    name: "CrossRef DOI",
-    logo: "/logos/crossref.svg",
-    link: "https://search.crossref.org/search/works?q=10.63180%2Fjcsra.thestap&from_ui=yes",
-  },
-  {
-    name: "Google Scholar",
-    logo: "/logos/google-scholar.svg",
-    link: "https://scholar.google.com/citations?hl=ar&view_op=list_works&gmla=ANZ5fUPVVLwn7oAVN2G5_D3s9cRohreHDxEgd7IFDYqjg8lPEfBUBzWpYQiYbNrvyCYp3nyFEL8RwJoGUM47ISws-8X5cGqQMrJ8bymROXDE20n-5GgSKsdlP_5qmVnKGA8b8rQKxmfsWmRTvN81AiI4ECcd4GVpMmWWksL9J2G3iw&user=JrLDhbwAAAAJ",
-  },
-  {
-    name: "Portico",
-    logo: "/logos/portico.png",
-    link: "https://www.portico.org/publishers/stap/",
-  },
-  {
-    name: "ISSN",
-    logo: "/logos/issn.webp",
-    link: "https://portal.issn.org/resource/ISSN/3079-5354",
-  },
+  // {
+  //   name: "Scopus",
+  //   logo: "/logos/scopus.png",
+  //   link: "https://www.scopus.com/sourceid/21101363747",
+  // },
+  // {
+  //   name: "DOAJ",
+  //   logo: "/logos/DOAJ.svg",
+  //   link:"https://doaj.org/toc/3079-5354"
+  // },
+  // {
+  //   name: "ِEbsco",
+  //   logo: "/logos/EBSCO.png",
+  //   link: "https://about.ebsco.com/m/ee/Marketing/titleLists/awr-coverage.htm",
+  // },
+  // {
+  //   name: "CrossRef DOI",
+  //   logo: "/logos/crossref.svg",
+  //   link: "https://search.crossref.org/search/works?q=10.63180%2Fjcsra.thestap&from_ui=yes",
+  // },
+  // {
+  //   name: "Google Scholar",
+  //   logo: "/logos/google-scholar.svg",
+  //   link: "https://scholar.google.com/citations?hl=ar&view_op=list_works&gmla=ANZ5fUPVVLwn7oAVN2G5_D3s9cRohreHDxEgd7IFDYqjg8lPEfBUBzWpYQiYbNrvyCYp3nyFEL8RwJoGUM47ISws-8X5cGqQMrJ8bymROXDE20n-5GgSKsdlP_5qmVnKGA8b8rQKxmfsWmRTvN81AiI4ECcd4GVpMmWWksL9J2G3iw&user=JrLDhbwAAAAJ",
+  // },
+  // {
+  //   name: "Portico",
+  //   logo: "/logos/portico.png",
+  //   link: "https://www.portico.org/publishers/stap/",
+  // },
+  // {
+  //   name: "ISSN",
+  //   logo: "/logos/issn.webp",
+  //   link: "https://portal.issn.org/resource/ISSN/3079-5354",
+  // },
   {
     name: "OJS",
     logo: "/logos/ojs.png",

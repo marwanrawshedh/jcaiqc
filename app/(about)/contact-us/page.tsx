@@ -16,7 +16,7 @@ const ContactUs = () => {
             <ul className="mt-2">
               <li className="flex items-center">
                 <address className="flex gap-1">
-                  <a href={`mailto:editor.editor.jcaiqc@sciencecommunitypublisher.org`}>
+                  <a href={`mailto:jcaiqc@sciencecommunitypublisher.org`}>
                     <Image
                       className="transition duration-500 ease-in-out hover:scale-125"
                       width={25}
@@ -25,7 +25,7 @@ const ContactUs = () => {
                       alt="email link"
                     />
                   </a>
-                  editor.editor.jcaiqc@sciencecommunitypublisher.org
+                  jcaiqc@sciencecommunitypublisher.org
                 </address>
               </li>
               {/* <li className="flex items-center">

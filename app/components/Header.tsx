@@ -34,7 +34,7 @@ function NavigationLinks() {
           { title: "Author Guidelines", href: "/author-guidelines" },
           { title: "Editorial Team", href: "/editorial-team" },
           { title: "Journal Partnerships", href: "/journal-partnerships" },
-          { title: "Abstracting and Indexing", href: "/abstracting-indexing" },
+          // { title: "Abstracting and Indexing", href: "/abstracting-indexing" },
           { title: "Article Publishing Charges", href: "/article-charges" },
         ]}
       />

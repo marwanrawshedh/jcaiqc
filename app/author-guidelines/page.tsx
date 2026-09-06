@@ -12,7 +12,7 @@ const AuthorGuidelines = () => {
     <div className="bg-white text-gray-800 px-6 py-12 max-w-5xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">Author Guidelines</h1>
 
-      <div className="mb-6">
+      {/* <div className="mb-6">
         <Link
           href="/articles/Template-JCSRA.docx"
           className="inline-flex items-center gap-2 underline text-blue-700 hover:text-blue-900 hover:scale-105 transition-transform duration-300"
@@ -20,7 +20,7 @@ const AuthorGuidelines = () => {
           <Image src="/logos/word.svg" alt="Word Icon" width={24} height={24} />
           Download Journal Template
         </Link>
-      </div>
+      </div> */}
 
       <div className="space-y-5 text-lg leading-relaxed">
         <p>

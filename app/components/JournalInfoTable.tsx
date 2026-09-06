@@ -93,7 +93,7 @@ const journalData = {
   "Digital Marketing": (
     <div className="flex gap-1">
       <a
-        href="mailto:editor.editor.jcaiqc@sciencecommunitypublisher.org"
+        href="mailto:jcaiqc@sciencecommunitypublisher.org"
         className="text-accent flex flex-col"
         aria-label="Send email to the Journal of Cybersecurity in AI and Quantum Computing editorial office"
       >
