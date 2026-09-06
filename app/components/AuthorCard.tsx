@@ -20,11 +20,11 @@ const AuthorCard = ({
 }: AuthorCardProps) => {
   return (
     <div className="flex flex-col sm:flex-row gap-6 p-6 bg-white border border-gray-200 hover:border-accent/40 transition-colors shadow-sm relative group h-full">
-      <div className="flex-shrink-0">
+      {/* <div className="flex-shrink-0">
         <div className="w-20 h-20 sm:w-24 sm:h-24 relative rounded-full overflow-hidden border border-gray-100 bg-gray-50 flex items-center justify-center">
           {img}
         </div>
-      </div>
+      </div> */}
       
       <div className="flex flex-col flex-1 h-full">
         <h3 className="text-lg font-bold font-heading text-primary leading-tight mb-1.5 group-hover:text-accent transition-colors">

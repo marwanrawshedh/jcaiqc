@@ -166,10 +166,10 @@ const ArchivingPolicyPage = () => {
           For questions or further information about our archiving practices,
           please contact:{" "}
           <a
-            href="mailto:editor.jcaiqc@sciencecommunitypublisher.org"
+            href="mailto:editor.editor.jcaiqc@sciencecommunitypublisher.org"
             className="text-blue-600 underline"
           >
-            editor.jcaiqc@sciencecommunitypublisher.org
+            editor.editor.jcaiqc@sciencecommunitypublisher.org
           </a>
         </p>
       </footer>

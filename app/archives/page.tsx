@@ -81,20 +81,20 @@ const Archives = async () => {
 
 
             return (
+                // <div className="relative w-full aspect-[3/4] sm:aspect-video md:aspect-[4/3] bg-gray-100 border-b border-gray-100 p-4">
+                //    {/* Fallback pattern for scholarly look if image is missing */}
+                //    <div className="absolute inset-0 bg-gradient-to-tr from-gray-100 to-gray-50 flex items-center justify-center opacity-50 z-0">
+                //      <span className="font-heading text-6xl text-gray-200 opacity-30 font-bold tracking-tighter">VOL {volumeNumber}</span>
+                //    </div>
+                //    <Image
+                //      src={`/logos/vol-${volumeNumber}-${label}.jpeg`}
+                //      fill
+                //      className="object-contain z-10 p-2 mix-blend-multiply transition-transform group-hover:scale-105"
+                //      alt={`Volume ${volumeNumber} Issue ${label} Cover`}
+                //      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                //    />
+                // </div>
               <article key={_id} className="flex flex-col bg-white border border-gray-200 hover:border-accent/40 shadow-sm transition-colors rounded-lg overflow-hidden relative group">
-                <div className="relative w-full aspect-[3/4] sm:aspect-video md:aspect-[4/3] bg-gray-100 border-b border-gray-100 p-4">
-                   {/* Fallback pattern for scholarly look if image is missing */}
-                   <div className="absolute inset-0 bg-gradient-to-tr from-gray-100 to-gray-50 flex items-center justify-center opacity-50 z-0">
-                     <span className="font-heading text-6xl text-gray-200 opacity-30 font-bold tracking-tighter">VOL {volumeNumber}</span>
-                   </div>
-                   <Image
-                     src={`/logos/vol-${volumeNumber}-${label}.jpeg`}
-                     fill
-                     className="object-contain z-10 p-2 mix-blend-multiply transition-transform group-hover:scale-105"
-                     alt={`Volume ${volumeNumber} Issue ${label} Cover`}
-                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                   />
-                </div>
                 
                 <div className="p-6 flex flex-col flex-1 h-full z-20 bg-white">
                   <div className="mb-3">

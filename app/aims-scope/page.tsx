@@ -118,10 +118,10 @@ const AimsAndScopesPage = () => {
           For questions or submissions related to aims and scope, please
           contact:{" "}
           <a
-            href="mailto:editor.jcaiqc@sciencecommunitypublisher.org"
+            href="mailto:editor.editor.jcaiqc@sciencecommunitypublisher.org"
             className="text-blue-600 underline"
           >
-            editor.jcaiqc@sciencecommunitypublisher.org
+            editor.editor.jcaiqc@sciencecommunitypublisher.org
           </a>
         </p>
       </footer>

@@ -94,13 +94,13 @@ export default function RightSideBar() {
         {!isPending &&
           editorInChief?.map(({ firstName, lastName, title, fileUrl }) => (
             <div key={firstName} className="flex gap-4 items-center group">
-              <Image
+              {/* <Image
                 className="rounded-full w-14 h-14 object-cover border-2 border-gray-50 shadow-sm grayscale group-hover:grayscale-0 transition-all"
                 width={56}
                 height={56}
                 src={fileUrl}
                 alt={"Editor in Chief image"}
-              />
+              /> */}
               <div className="flex flex-col">
                 <p className="text-sm font-bold font-heading text-primary leading-tight group-hover:text-accent transition-colors">
                   {title}. {firstName} {lastName}
