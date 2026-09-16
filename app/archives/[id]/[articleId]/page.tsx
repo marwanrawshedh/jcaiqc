@@ -114,6 +114,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title,
+    robots: {
+      index: false,
+    },
     description: abstract.replace(/\s+/g, " ").trim(),
     alternates: {
       canonical: canonicalUrl,
