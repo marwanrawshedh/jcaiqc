@@ -42,7 +42,7 @@ const schema = object().shape({
       "Only doc documents (.jpeg/.png) are allowed",
       (value) => {
         return value && value?.[0] && SUPPORTED_FORMATS.includes(value[0].type);
-      }
+      },
     ),
   email: string().email(),
   googleLink: string(),
@@ -77,7 +77,6 @@ const UpdateForm = () => {
     const formData = new FormData();
 
     if (uploadedFile && uploadedFile[0]) {
-      console.log(uploadedFile[0]);
       formData.append("file", uploadedFile[0]);
     } else {
       console.error("No file selected");
