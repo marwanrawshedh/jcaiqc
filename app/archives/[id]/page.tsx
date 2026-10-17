@@ -20,7 +20,7 @@ const fetchIssueArticles = async ({
   try {
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/article/issue/${volume}/${issue}`,
-      { next: { revalidate: 86400 } }, // Commit 11: ISR — 24h cache
+      { next: { revalidate: 86400 / 24 / 12 } }, // Commit 11: ISR —5 minutes
     );
     if (!response.ok) throw new Error("Failed to fetch");
     return response.json();
